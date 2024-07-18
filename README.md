@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -248,3 +249,6 @@ This project has been **archived**. Means that it is no longer actively maintain
 # Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/hashirshoaeb/home.svg)](https://starchart.cc/hashirshoaeb/home)
+=======
+# Portfolio
+>>>>>>> 71628ea1eccdfe699e496dae918f7a7bc980d333
