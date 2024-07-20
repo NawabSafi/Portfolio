@@ -1,0 +1,7 @@
+[build]
+  node_version = "20.10.0"
+  npm_version = "10.2.3"
+
+[context.production.environment]
+  NODE_VERSION = "20.10.0"
+  NPM_VERSION = "10.2.3"
