@@ -1,7 +1,11 @@
 [build]
-  command = "yarn build"
+  command = "npm run build"
   publish = "build"
+  node_version = "20.10.0"
+  npm_version = "10.2.3"
 
-[build.environment]
-  NODE_VERSION = "20.15.0"
-  YARN_VERSION = "1.22.22"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
