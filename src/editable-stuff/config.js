@@ -52,7 +52,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Mohammad Nawab Safi. I’m a graduate of 2024 from  Faculty of Computing and IT with a degree in Computer Science. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: require("https://1drv.ms/b/s!AlisZh9yCG-hgvF2kUnqhkCo3OH3Fg?e=EwhnVb"),
+  resume: "https://1drv.ms/b/s!AlisZh9yCG-hgvF2kUnqhkCo3OH3Fg?e=EwhnVb",
 
 };
 
