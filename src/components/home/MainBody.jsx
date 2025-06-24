@@ -26,17 +26,50 @@ const MainBody = React.forwardRef(
             </div>
           </Typist>
           <div className="p-5">
-            {icons.map((icon, index) => (
-              <a
-                key={`social-icon-${index}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                href={icon.url}
-                aria-label={`My ${icon.image.split("-")[1]}`}
-              >
-                <i className={`fab ${icon.image}  fa-3x socialicons`} />
-              </a>
-            ))}
+            {icons.map((icon, index) => {
+              // Custom icon for LeetCode
+              if (icon.url.includes("leetcode.com")) {
+                return (
+                  <a
+                    key={`social-icon-${index}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={icon.url}
+                    aria-label="My LeetCode"
+                  >
+                    <span style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      background: '#fff',
+                      borderRadius: '50%',
+                      width: '48px',
+                      height: '48px',
+                      margin: '0 10px',
+                      boxShadow: '0 2px 8px rgba(0,0,0,0.15)'
+                    }}>
+                      <img
+                        src="/icons8-leetcode-24.png"
+                        alt="LeetCode"
+                        style={{ width: '32px', height: '32px', display: 'block' }}
+                      />
+                    </span>
+                  </a>
+                );
+              }
+              // Default icon
+              return (
+                <a
+                  key={`social-icon-${index}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={icon.url}
+                  aria-label={`My ${icon.image.split("-")[1]}`}
+                >
+                  <i className={`fab ${icon.image}  fa-3x socialicons`} />
+                </a>
+              );
+            })}
           </div>
           <a
             className="btn btn-outline-light btn-lg "

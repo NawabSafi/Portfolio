@@ -60,7 +60,6 @@ const Navigation = React.forwardRef((props, ref) => {
           <NavLink
             className="nav-item lead"
             href={about.resume}
-            target="_blank"
             rel="noreferrer noopener"
           >
             Resume

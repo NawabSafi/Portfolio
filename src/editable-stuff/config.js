@@ -16,8 +16,8 @@ const mainBody = {
       url: "https://github.com/NawabSafi",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/nawab.safi61",
+      image: "fa-code",
+      url: "https://leetcode.com/u/Mohammed_Nawab_Safi/",
     },
     {
       image: "fa-instagram",
@@ -49,11 +49,10 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/nawab.jpg"),
-  imageSize: 375,
+  imageSize: 280,
   message:
     "My name is Mohammad Nawab Safi. I’m a graduate of 2024 from  Faculty of Computing and IT with a degree in Computer Science. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://1drv.ms/b/s!AlisZh9yCG-hgvF2kUnqhkCo3OH3Fg?e=EwhnVb",
-
+  resume: "https://1drv.ms/b/s!AlisZh9yCG-hg9047wlMYpzW1ncP_g?embed=1&em=2",
 };
 
 // PROJECTS SECTION
@@ -103,9 +102,20 @@ const skills = {
     { name: "Data Structures", value: 85 },
     { name: "C/C++", value: 65 },
     { name: "JavaScript", value: 70 },
-    { name: "React", value: 65 },
+    { name: "React", value: 85 },
     { name: "HTML/CSS", value: 55 },
     { name: "C#", value: 80 },
+    { name: "ASP.NET Core", value: 75 },
+    { name: "Entity Framework", value: 70 },
+    { name: "Azure (App Services, Functions, DevOps)", value: 65 },
+    { name: "REST APIs", value: 80 },
+    { name: "Microservices", value: 60 },
+    { name: "Docker", value: 60 },
+    { name: "CI/CD", value: 60 },
+    { name: "Agile/Scrum", value: 70 },
+    { name: "Full Stack Development", value: 75 },
+    { name: "Unit Testing", value: 70 },
+    { name: "Git/GitHub", value: 80 }
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -129,18 +139,27 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Software Developer',
+      companylogo: '/MinistryLogo.jpg',
+      date: 'Dec 2024 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Web Developer',
+      companylogo: '/AFOU-Logo.png', // Logo from public folder
+      date: 'Nov, 2023 – July, 2024',
+      company: 'AFGOU',
+      description: 'Project based',
+    },
+    {
+      role: 'Developer (Fiverr Freelancing Platform)',
+      companylogo: '/Fiver-logo.png', // Fiverr logo from public folder
+      date: 'Jan, 2023 – Oct, 2023',
+      company: 'Fiverr',
+      description: 'Provided development services to clients on the Fiverr platform.'
     },
   ]
 }
